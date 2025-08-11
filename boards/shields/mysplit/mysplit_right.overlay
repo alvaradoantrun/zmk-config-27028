@@ -1,0 +1,7 @@
+#include "mysplit.dtsi"
+
+&kscan0 {
+    col-gpios = <&pro_micro 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
+                <&pro_micro 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
+                <&pro_micro 13 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
+};
